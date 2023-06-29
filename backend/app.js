@@ -1,3 +1,4 @@
+//Arquivo principal do backend
 require('dotenv').config();
 
 const express = require("express");
