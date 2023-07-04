@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './Login'
-import Admin from './Admin'
 import AdminFinanceiro from './AdminFinanceiro';
 import AdminIngredientes from './AdminIngredientes';
 import AdminFeedback from './AdminFeedback';
@@ -21,7 +20,6 @@ root.render(
   <Routes>
     <Route index path="/" element={<App />}/>
     <Route path="/login" element={<Login />} />
-    <Route path="/admin" element={<Admin />} />
     <Route path="/admin/financeiro" element={<AdminFinanceiro />} />
     <Route path="/admin/ingredientes" element={<AdminIngredientes />} />
     <Route path="/admin/feedback" element={<AdminFeedback />} />
